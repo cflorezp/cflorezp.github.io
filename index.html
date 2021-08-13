@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Florez Pitta</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/style.css"
+      media="screen"/>
+  </head>
+  <body>
+    <header id="inicio">
+      <div class="overlay"></div>
+      <img class="hamburguesa" src="iconos/menuHamburguesa.svg" />
+      <video src="videos/v1.mp4" muted preload autoplay loop></video>
+      <nav class="menu-navegacion">
+        <a href="#inicio" id="minicio">Inicio</a>
+        <a href="#habilidades" id="mhabilidades">Mis Habilidades</a>
+        <a href="#sistemas" id="so">Sistemas Operativos</a>
+        <a href="#proyectos" id="mproyectos">Mis Proyectos</a>
+        <a href="#contacto" id="mcontacto">Contacto</a>
+        <div class="idioms"></div>
+        <a href="#eng" id="en" data-reload>English Version</a>
+        <a href="#fr" data-reload>Version Française</a>
+        <a href="#es" data-reload>Version en Español</a>
+      </nav>
+      <div class="absolute">
+        <center>
+          <h1 class="titulo">Carlos Florez Pitta</h1>
+          <h2 class="complementh1" id="subtitle1">Ingeniero - Desarrollador</h2>
+        </center>
+      </div>
+    </header>
+    <main>
+      <section class="service contenedor" id="habilidades">
+        <h2 class="subtitulo" id="submishabilidades">Mis Habilidades</h2>
+        <div class="contenedor-servicio">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            style="width: 40%">
+            <div class="carousel-inner" style="height: 450px">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="imagenes/html.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagenes/css.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagenes/javascript.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagenes/bootstrap.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagenes/angular.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item mycarousel" data-bs-interval="2000">
+                <img src="imagenes/java.jpg" class="d-block w-100" />
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagenes/sql.jpg" class="d-block w-100" />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="checklist">
+            <h3 class="n-service"><span class="number"></span>HTML - CSS</h3>
+            <h3 class="n-service"><span class="number"></span>Javascript</h3>
+            <h3 class="n-service"><span class="number"></span>Bootstrap</h3>
+            <h3 class="n-service"><span class="number"></span>Angular</h3>
+            <h3 class="n-service"><span class="number"></span>Java</h3>
+            <h3 class="n-service"><span class="number"></span>JSF</h3>
+            <h3 class="n-service"><span class="number"></span>Hibernate</h3>
+            <h3 class="n-service"><span class="number"></span>SQL</h3>
+            <h3 class="n-service"><span class="number"></span>Git</h3>
+            <h3 class="n-service"><span class="number"></span>SCRUM</h3>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="sistemas">
+        <div class="contenedor">
+          <h2 class="subtitulo" id="subso">Sistemas Operativos</h2>
+          <p class="descripcionso" id="descso">
+            Destreza en el manejo, configuración y mantenimiento de los
+            siguientes sistemas operativos
+          </p>
+          <div class="contenedor-galeria">
+            <img src="imagenes/windows.jpg" alt="" class="img-galeria" />
+            <img src="imagenes/linux.jpg" alt="" class="img-galeria" />
+            <img src="imagenes/macos.jpg" alt="" class="img-galeria" />
+          </div>
+        </div>
+      </section>
+      <section class="imagen-light">
+        <img src="iconos/close.svg" alt="" class="close" />
+        <img src="" alt="" class="agregar-imagen" />
+      </section>
+      <section class="contenedor" id="proyectos">
+        <h2 class="subtitulo" id="subpro">Mis Proyectos</h2>
+        <section class="experts">
+          <div class="cont-expert">
+            <a href="https://github.com/cflorezp" target="_blank"><img src="imagenes/github.jpg" alt=""/></a>
+            <h3 class="n-expert" id="github">En Github</h3>
+          </div>
+          <div class="cont-expert">
+            <a href="https://www.codewars.com/users/cflorez" target="_blank"><img src="imagenes/codewars.jpg" alt=""/></a>
+            <h3 class="n-expert" id="codewars">En Codewars</h3>
+          </div>
+          <div class="cont-expert">
+            <img src="imagenes/proximamente.jpg" alt="" />
+            <h3 class="n-expert" id="proximo">Próximamente</h3>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer id="contacto">
+      <div class="footer-content">
+        <div class="contact-us">
+          <h2 class="brand">Carlos Florez Pitta</h2>
+          <p id="fingeniero">Ingeniero de Sistemas</p>
+          <p id="fdesarrollador">Desarrollador Web</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://github.com/cflorezp"
+            target="_blank"
+            class="social-media-icon">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://twitter.com/carlosfpitta"
+            target="_blank"
+            class="social-media-icon">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/carlos-florez-pitta/"
+            target="_blank"
+            class="social-media-icon">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/idioms.js" charset="utf-8"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
