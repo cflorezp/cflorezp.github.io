@@ -140,26 +140,12 @@ h1::after {
 }
 
 
-/****/
-.img-hab{
-  background-size: cover;
- 
-  
-}
-
 .cont-hab{
   width: 450px;
-  height: 380px;
+  height: 400px;
+  margin-top: 10px;
 }
 
-.hab-img{
-  background-size: cover;
-}
-
-
-
-
-/******************/
 .descripcionso {
   text-align: center;
   font-weight: 300;
@@ -176,13 +162,10 @@ h1::after {
   flex-wrap: wrap;
 }
 
-/*
-.contenedor-servicio img {
-  width: 40%;
-}*/
 
 .checklist {
   width: 40%;
+  margin-top: 10px;
 }
 
 .service {
