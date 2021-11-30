@@ -373,7 +373,7 @@ footer {
   height: 2px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 800px) {
 
   header{
     width: 100%;
@@ -392,6 +392,7 @@ footer {
 
   .carousel{
     width: 100%;
+    z-index: -1;
   }
 
   .checklist{
@@ -407,6 +408,7 @@ footer {
 
   .menu-navegacion {
     width: 50vw;
+    z-index: 1;
   }
 
   .titulo {
@@ -425,7 +427,6 @@ footer {
   .n-service {
     font-size: 20px;
   }
-
 
   .checklist-servicio {
     width: 80%;
@@ -449,6 +450,10 @@ footer {
 
   .cont-hab{
     width: 100%;
+  }
+
+  .contenedor-galeria{
+    height: 100%;
   }
 
   .footer-content {
@@ -479,14 +484,16 @@ footer {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
   .menu-navegacion {
-    width: 65vw;
+    width: 45vw;
+
   }
 
   .hamburguesa {
     top: 20px;
     right: 20px;
+    z-index: 1;
   }
 
   .titulo {
@@ -507,6 +514,7 @@ footer {
 
   .carousel{
     width: 100%;
+    z-index: -1;
   }
 
   .checklist{
@@ -516,7 +524,7 @@ footer {
   }
 
   .n-service {
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 10px;
     margin-left: 20px;
     width: 30%;
@@ -528,6 +536,10 @@ footer {
 
   .carousel-item {
     width: 95%;
+  }
+
+  .contenedor-galeria{
+    height: 100%;
   }
 
   .social-media {
