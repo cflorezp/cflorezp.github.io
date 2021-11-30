@@ -153,7 +153,6 @@ h1::after {
   font-size: 40px;
 }
 
-
 .cont-hab{
   width: 380px;
   height: 380px;
@@ -175,7 +174,6 @@ h1::after {
   align-items: center;
   flex-wrap: wrap;
 }
-
 
 .checklist {
   width: 40%;
@@ -222,7 +220,6 @@ h1::after {
 }
 
 .img-galeria {
-  object-fit: contain;
   width: 30%;
   display: block;
   margin-bottom: 15px;
@@ -250,7 +247,6 @@ h1::after {
 }
 
 .agregar-imagen {
-  object-fit: cover;
   width: 60%;
   height: 85%;
   border-radius: 10px;
