@@ -11,7 +11,7 @@ var language = {
     descripcionSO: "Skill in the management, configuration and maintenance of the following operating systems",
     enGithub: "On Github",
     enCodewars: "On Codewars",
-    proximamente: "Coming Soon",
+    enHackerrank: "On HackerRank",
     ingeniero: "Engineer",
     desarrollador: "Developer"
   },
@@ -26,7 +26,7 @@ var language = {
     descripcionSO: "Destreza en el manejo, configuración y mantenimiento de los siguientes sistemas operativos",
     enGithub: "En Github",
     enCodewars: "En Codewars",
-    proximamente: "Proximamente",
+    enHackerrank: "En HackerRank",
     ingeniero: "Ingeniero",
     desarrollador: "Desarrollador"
   },
@@ -41,7 +41,7 @@ var language = {
     descripcionSO: "Compétence dans la gestion, la configuration et la maintenance des systèmes operatifs suivants",
     enGithub: "Sur Github",
     enCodewars: "Sur Codewars",
-    proximamente: "Bientôt Disponible",
+    enHackerrank: "Sur HackerRank",
     ingeniero: "Ingénieur",
     desarrollador: "Développeur"
   }
@@ -61,7 +61,7 @@ if(window.location.hash){
     subpro.textContent = language.eng.misProyectos;
     github.textContent = language.eng.enGithub;
     codewars.textContent = language.eng.enCodewars;
-    proximo.textContent = language.eng.proximamente; 
+    hackerrank.textContent = language.eng.enHackerrank; 
     fingeniero.textContent = language.eng.ingeniero;
     fdesarrollador.textContent = language.eng.desarrollador;
   }
@@ -79,7 +79,7 @@ if(window.location.hash){
     subpro.textContent = language.fr.misProyectos;
     github.textContent = language.fr.enGithub;
     codewars.textContent = language.fr.enCodewars;
-    proximo.textContent = language.fr.proximamente; 
+    hackerrank.textContent = language.fr.enHackerrank; 
     fingeniero.textContent = language.fr.ingeniero;
     fdesarrollador.textContent = language.fr.desarrollador;
   }
@@ -97,7 +97,7 @@ if(window.location.hash){
     subpro.textContent = language.esp.misProyectos;
     github.textContent = language.esp.enGithub;
     codewars.textContent = language.esp.enCodewars;
-    proximo.textContent = language.esp.proximamente; 
+    hackerrank.textContent = language.esp.enHackerrank; 
     fingeniero.textContent = language.esp.ingeniero;
     fdesarrollador.textContent = language.esp.desarrollador;
   }
