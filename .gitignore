@@ -1,3 +1,6 @@
 # Private / local design sources
 cv.txt
 design/
+
+# Cursor local rules
+.cursor/
