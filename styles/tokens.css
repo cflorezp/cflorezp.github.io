@@ -1,0 +1,38 @@
+/**
+ * Design tokens — see design/STYLE.md and design/references/
+ * Do not edit ad hoc; keep changes aligned with the visual references.
+ */
+
+:root {
+  /* Palette (02-palette.png) */
+  --color-white: #ffffff;
+  --color-blush: #f7e9e7;
+  --color-red: #e31c23;
+  --color-burgundy: #3b1410;
+  --color-black: #000000;
+
+  /* Surfaces / text helpers */
+  --surface-light: #eaeaea;
+  --surface-border: #c8c8c8;
+  --text-on-light: #1a1a1a;
+  --text-on-dark: var(--color-white);
+
+  /* Typography */
+  --font-display: "Syne", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-ui: "DM Sans", system-ui, sans-serif;
+
+  /* Hero gradient (keep) */
+  --gradient-hero:
+    radial-gradient(
+      ellipse 70% 55% at 50% 35%,
+      rgba(227, 28, 35, 0.18) 0%,
+      transparent 65%
+    ),
+    linear-gradient(
+      165deg,
+      var(--color-burgundy) 0%,
+      #2a0e0c 45%,
+      var(--color-black) 100%
+    );
+}

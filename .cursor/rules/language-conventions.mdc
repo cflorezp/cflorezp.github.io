@@ -1,0 +1,40 @@
+---
+description: Language conventions — Spanish chat, English project content
+alwaysApply: true
+---
+
+# Language conventions
+
+## Chat
+- Always communicate with the user in **Spanish**.
+
+## Project code and assets
+- All **UI text**, **file names**, **folder names**, **CSS class names**, **IDs**, **comments**, and **commit messages** must be in **English**.
+- Do not invent Spanish identifiers or comments in source files.
+
+### Examples
+
+```html
+<!-- ❌ BAD -->
+<a href="#inicio">Inicio</a>
+<p class="hero__rol">desarrollador de software</p>
+
+<!-- ✅ GOOD -->
+<a href="#home">Home</a>
+<p class="hero__role">software developer</p>
+```
+
+```css
+/* ❌ BAD */
+/* Estilos del menú flotante */
+
+/* ✅ GOOD */
+/* Floating menu styles */
+```
+
+```text
+❌ BAD file: estilos/estilo.css
+✅ GOOD file: styles/style.css
+```
+
+When renaming existing Spanish labels for this rule, update HTML, CSS selectors, and any JS references together.
